@@ -2,11 +2,11 @@
   color: darkturquoise;
   font-family: Comic Sans MS,Comic Sans;
   font-weight: 700;
-  font-size: 100px;
+  font-size: 200px;
   text-align: center;
   text-transform: uppercase;
   -webkit-animation: bounceIn 1.5s both 1s;
-  margin-top: 100px;
+  margin-top: 20px;
   z-index: 1;
 }
 @-webkit-keyframes bounceIn {
