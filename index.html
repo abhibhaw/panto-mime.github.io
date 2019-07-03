@@ -1,111 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PANTOMIME</title>
+	<title>3d text transition test</title>
+	<link rel="stylesheet" type="text/css" href="3d.css">
+	<link rel="stylesheet" type="text/css" href="hover.css">
+	<meta  name="viewport">
 	<meta http-equiv="Refresh" content="7; url=homepage.html">
-	 <meta name="viewport" content="width=device-width,initial-sacle=1.0">
-	 <link rel="icon" type="image/x-icon" href="plogo.jpg">
-
-
-<style>
-	body{
-		background-color: #D3D3D3;
-	}
-</style>
-
-	  <style>
-	  	.h1 {
-  color: darkturquoise;
-  font-family: lato;
-  font-weight: 500;
-  font-size: 70px;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-animation: bounceIn 1.5s both 1s;
-  margin-top: 200px;
-}
-@-webkit-keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    -webkit-transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    -webkit-transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-
-.h2 {
-  color: darkturquoise;
-  font-family: lato;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-animation: bounceIn 1.5s both 1s;
-  margin-top: 100px;
-}
-@-webkit-keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    -webkit-transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    -webkit-transform: scale(0.1);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-  }
-}
-
-	  </style>
 </head>
 <body>
-<div class="container">
-	<h1 class="h1" style="font-family: Comic Sans MS,Comic Sans">PANTOMIME</h1>
-  <h2 class="h2" style="font-family: Comic Sans MS,Comic Sans">LIFE IS A STAGE</h2>
+<canvas></canvas>
+
+<div class="absolute-center">
+    <h3 class="pp">PANTOMIME</h3>
+    
+    <h5 class="ll"><i>LIFE IS A STAGE</i></h5>
+    
+    <span id="close"><i class="fa fa-fw fa-times-circle-o"></i></span>
 </div>
+
+
+<script src="3d.js"></script>
 </body>
 </html>
