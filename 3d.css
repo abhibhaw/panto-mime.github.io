@@ -42,10 +42,25 @@ span#close {
   font-family: Comic Sans MS,Comic Sans;
   font-weight: 300;
   font-size: 100px;
+  transition: all .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.pp:hover{
+  transform: scale(1.2);
+  text-transform: "life is a stage"
 }
 
 .ll{
   font-family: Comic Sans MS,Comic Sans;
   font-weight: 100;
   font-size: 30px;
+  transition-timing-function: ease-in-out;
+  transition: all .5s;
 }
+.ll:hover{
+  transform: scale(0.8);
+  text-transform: "life is a stage"
+}
+
+
