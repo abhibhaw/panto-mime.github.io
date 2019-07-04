@@ -3,9 +3,11 @@
 <head>
 	<title>PANTOMIME</title>
 	<link rel="stylesheet" type="text/css" href="3d.css">
+	<link rel="stylesheet" type="text/css" href="hhr.css">
+    <link rel="stylesheet" type="text/css" href="s.css">
 	<link rel="icon" type="image/x-icon" href="icons/plogo.jpg">
   <meta  name="viewport">
-<meta http-equiv="Refresh" content="7; url=homepage.html">
+<!--<meta http-equiv="Refresh" content="7; url=homepage.html"> -->		
 </head>
 <body>
 <canvas></canvas>
@@ -19,6 +21,24 @@
 </div>
 
 
+
+<svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+	<defs>
+		<path id="line" d="M2 2c49.7 2.6 100 3.1 150 1.7-46.5 2-93 4.4-139.2 7.3 45.2-1.5 90.6-1.8 135.8-.6" fill="none" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+	</defs>
+</svg>
+
+<div class="container">
+	<a class="btn" href="/">PROJECTS
+		<svg class="button-stroke" viewBox="0 0 154 13">
+			<use href="#line"></use>
+		</svg>
+		<svg class="button-stroke" viewBox="0 0 154 13">
+			<use href="#line"></use>
+		</svg>
+	</a>
+
+	
 
 
 <script src="3d.js"></script>
