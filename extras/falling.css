@@ -9,6 +9,10 @@ body {
   text-align:center;
   color:red;
   animation: BounceIn 4s ease-in;
+  transition: all 500ms ease-in-out;
+}
+.pantomime:hover{
+  transform: scale(0.8);
 }
 .pantomime1{
   font-family:Comic Sans MS,Comic Sans;
@@ -17,6 +21,10 @@ body {
   text-align:center;
   animation: BounceIn 4s ease-in;
   color:white;
+  transition: all 500ms ease-in-out;
+}
+.pantomime1:hover{
+  transform: scale(.6);
 }
 @keyframes BounceIn{
   0%{
@@ -25,11 +33,13 @@ body {
   }
   50%{
     opacity:1;
-    transform:scale(1.2);
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
   }
   70%{
     opacity:0.2;
     transform:scale(1);
+    -webkit-transform:scale(1);
   }
   100%
   {
