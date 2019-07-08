@@ -131,7 +131,7 @@ h2::after {
    bottom: -11.32rem;
    animation-name: directedT;
    animation-duration: 10s;
-   animation-delay: 3s;
+   animation-delay: 0s;
 }
 
 @keyframes directedT {
